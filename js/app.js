@@ -5,8 +5,9 @@ let userName=prompt('what\'s your name?');
 
 console.log( 'hello' , userName);
 
-alert('welcom '+ userName + ' let go  play my game' );
-
+alert('welcom '+ userName + ' lets go  play my game' );
+ 
+let score=0;
 
 /////////////////////////////////
 
@@ -21,6 +22,7 @@ if (firstone=="yes" || firstone=="y" ) {
   console.log( firstone+" that true");
 
      alert( userName + "YOUR answer is yes");
+      score++;
  } else{
    
     console.log(' oh thats wrong');
@@ -40,6 +42,7 @@ if (secandone=="yes" || secandone=="y" ) {
   console.log( secandone+"  that true");
 
      alert( userName + "YOUR answer is yes");
+        score++;
  } else{
    
     console.log(' oh thas wrong');
@@ -59,7 +62,8 @@ if (third=="yes" || third=="y" ) {
   console.log( third+"  that true");
 
      alert( userName + "YOUR answer is yes");
- } else{
+              score++; 
+    } else{
    
     console.log( ' oh thas wrong');
    
@@ -76,7 +80,8 @@ if (foure=="yes" || foure=="y" ) {
   console.log( foure+"  that true");
 
      alert( userName + "YOUR answer is yes");
- } else{
+        score++;
+    } else{
    
     console.log(' oh thas wrong');
    
@@ -93,11 +98,76 @@ if (five=="yes" || five=="y" ) {
   console.log( five+"  that true");
 
      alert( userName + "YOUR answer is yes");
- } else{
+      score++;
+    } else{
    
     console.log(' oh thas wrong');
    
       alert( userName + "YOUR answer is false");}
+     
+      ////////////////////////
 
-      ///////
-      alert('thanks for plaing ' + userName);
+
+      let guessNumber=Number( prompt('pleas guse anumber between one and 8 you have 4 entries'));
+
+     
+          var i;
+         for(i=0;i<4;i++){
+
+          if (guessNumber >5 ) {
+          
+            alert ('too high');
+          
+          guessNumber=Number (prompt('pleas guse anumber between one and 8 you have 4 entries '));
+             
+        } else if (guessNumber < 5 ) {
+          
+            alert ('too low');
+            guessNumber=Number (prompt('pleas guse anumber between one and 8 you have 4 entries '));
+          }
+         else if (guessNumber==5){  
+
+          alert  ('your answer is true');
+          score++;
+          break;
+         }
+           else {
+                
+
+             alert (' plz  try  agein ');
+
+             guessNumber=Number (prompt('pleas guse anumber between one and 8 you have 4entries '));
+
+
+           }     } 
+          
+
+ //////////////////////
+
+ let books=['math','islimic','softwera','english'];
+  let favbooks;
+
+
+for(let i=0; i<6; i++){
+  
+  favbooks=prompt('what is my faviorte books? ');
+      favbooks=favbooks.toLowerCase();
+     
+      
+      for (let j = 0; j <books.length ; j++) {
+           
+
+        if (favbooks===books[j])
+        {
+
+            alert('thanks your answer is true');
+            score++;
+
+            i=7;  }
+
+}  if (i!=7){
+    alert(' sorry your answer is wrong  try again');
+}
+}
+alert(`you have a score of ${score} /7`);
+alert('thanks for plaing ' + userName);
