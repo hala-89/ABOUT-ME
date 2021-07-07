@@ -96,8 +96,8 @@ if (third=="yes" || third=="y" ) {
    ///////////////////////
 
    
-
-   let foure=prompt('is am  like read book?');
+function question4(){
+  let foure=prompt('is am  like read book?');
 
 foure=foure.toLowerCase();
 
@@ -112,6 +112,8 @@ if (foure=="yes" || foure=="y" ) {
     console.log(' oh thas wrong');
    
       alert( userName + "YOUR answer is false");}
+}question4();
+   
 
 
 
