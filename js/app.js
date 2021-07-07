@@ -160,7 +160,7 @@ for(let i=0; i<6; i++){
         if (favbooks===books[j])
         {
 
-            alert('thanks your answer is true');
+            alert('thanks your answer is true' ,+ books );
             score++;
 
             i=7;  }
