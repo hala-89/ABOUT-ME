@@ -9,8 +9,10 @@ alert('welcom '+ userName + ' lets go  play my game' );
  
 let score=0;
 
-/////////////////////////////////
+////////////////////////////
 
+function question1()
+{
 
   let firstone=prompt('is im  amum?');
 
@@ -30,9 +32,13 @@ if (firstone=="yes" || firstone=="y" ) {
       alert( userName + "YOUR answer is false");
 
  }
+}
+ question1();
+
 
 //////////////////////////////////
 
+function question2(){
 let secandone=prompt('is am  like ice?');
 
 secandone=secandone.toLowerCase();
@@ -50,9 +56,11 @@ if (secandone=="yes" || secandone=="y" ) {
       alert( userName + "YOUR answer is false");
 
  }
+ 
+} question2();
 //////////////////////////////////
 
-
+/*
 let third=prompt('is am   have car ?');
 
 third=third.toLowerCase();
@@ -139,13 +147,14 @@ if (five=="yes" || five=="y" ) {
              guessNumber=Number (prompt('pleas guse anumber between one and 8 you have 4entries '));
 
 
-           }     } 
+           }     } */
           
 
  //////////////////////
 
- let books=['math','islimic','softwera','english'];
-  let favbooks;
+  /*let books=[ 'math',  'islimic ',' softwera ', 'english'];
+   
+ let favbooks;
 
 
 for(let i=0; i<6; i++){
@@ -160,7 +169,7 @@ for(let i=0; i<6; i++){
         if (favbooks===books[j])
         {
 
-            alert('thanks your answer is true' ,+ books );
+                    alert('thanks your answer is true ' +books );
             score++;
 
             i=7;  }
@@ -170,4 +179,4 @@ for(let i=0; i<6; i++){
 }
 }
 alert(`you have a score of ${score} /7`);
-alert('thanks for plaing ' + userName);
+alert('thanks for plaing ' + userName);*/
