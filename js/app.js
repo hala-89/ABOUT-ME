@@ -121,8 +121,9 @@ if (foure=="yes" || foure=="y" ) {
     
     
     
-
-    let five=prompt('is am live in acity ?');
+function question5()
+{
+  let five=prompt('is am live in acity ?');
 
       five=five.toLowerCase();
 
@@ -137,6 +138,8 @@ if (five=="yes" || five=="y" ) {
     console.log(' oh thas wrong');
    
       alert( userName + "YOUR answer is false");}
+}question5();
+    
      
 
       ////////////////////////
