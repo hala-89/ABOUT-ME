@@ -33,7 +33,7 @@ if (firstone=="yes" || firstone=="y" ) {
 
  }
 }
-question1();
+question1()
   
 
 
@@ -72,8 +72,9 @@ if (secandone=="yes" || secandone=="y" ) {
 
 
 
-
- let third=prompt('is am   have car ?');
+function question3()
+{
+  let third=prompt('is am   have car ?');
 
 third=third.toLowerCase();
 
@@ -89,6 +90,8 @@ if (third=="yes" || third=="y" ) {
    
    alert( userName + 'YOUR answer is false') ;}
 
+}question3()
+ 
 
    ///////////////////////
 
