@@ -63,8 +63,9 @@ if (secandone=="yes" || secandone=="y" ) {
 //////////////////////////////////
 
 
+function question3(){
 
- /*let third=prompt('is am   have car ?');
+ let third=prompt('is am   have car ?');
 
 third=third.toLowerCase();
 
@@ -80,9 +81,10 @@ if (third=="yes" || third=="y" ) {
    
    alert( userName + 'YOUR answer is false') ;}
 
+     } question3();
    ///////////////////////
 
-   /*let foure=prompt('is am  like read book?');
+   let foure=prompt('is am  like read book?');
 
 foure=foure.toLowerCase();
 
@@ -150,12 +152,12 @@ if (five=="yes" || five=="y" ) {
              guessNumber=Number (prompt('pleas guse anumber between one and 8 you have 4entries '));
 
 
-           }     } */
+           }     }
           
 
  //////////////////////
 
-  /*let books=[ 'math',  'islimic ',' softwera ', 'english'];
+  let books=[ 'math',  'islimic ',' softwera ', 'english'];
    
  let favbooks;
 
@@ -180,6 +182,6 @@ for(let i=0; i<6; i++){
 }  if (i!=7){
     alert(' sorry your answer is wrong  try again');
 }
-}*/
+}
 alert(`you have a score of ${score} /7`);
 alert('thanks for plaing ' + userName);
