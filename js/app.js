@@ -84,6 +84,8 @@ if (third=="yes" || third=="y" ) {
      } question3();
    ///////////////////////
 
+   
+function question4(){
    let foure=prompt('is am  like read book?');
 
 foure=foure.toLowerCase();
@@ -101,6 +103,7 @@ if (foure=="yes" || foure=="y" ) {
       alert( userName + "YOUR answer is false");}
 
 
+     } question4();
       /////////////////////////////
       let five=prompt('is am live in acity ?');
 
