@@ -33,7 +33,7 @@ if (firstone=="yes" || firstone=="y" ) {
 
  }
 }
-question1();
+question1()
   
 
 
@@ -42,8 +42,9 @@ question1();
 //////////////////////////////////
 
 
-
-  let secandone=prompt('is am  like ice?');
+function question2()
+{
+   let secandone=prompt('is am  like ice?');
 
 secandone=secandone.toLowerCase();
 
@@ -60,6 +61,8 @@ if (secandone=="yes" || secandone=="y" ) {
       alert( userName + "YOUR answer is false");
 
  }
+}
+ question2();
 
    
  
@@ -69,8 +72,9 @@ if (secandone=="yes" || secandone=="y" ) {
 
 
 
-
- let third=prompt('is am   have car ?');
+function question3()
+{
+  let third=prompt('is am   have car ?');
 
 third=third.toLowerCase();
 
@@ -86,12 +90,14 @@ if (third=="yes" || third=="y" ) {
    
    alert( userName + 'YOUR answer is false') ;}
 
+}question3()
+ 
 
    ///////////////////////
 
    
-
-   let foure=prompt('is am  like read book?');
+function question4(){
+  let foure=prompt('is am  like read book?');
 
 foure=foure.toLowerCase();
 
@@ -106,6 +112,8 @@ if (foure=="yes" || foure=="y" ) {
     console.log(' oh thas wrong');
    
       alert( userName + "YOUR answer is false");}
+}question4();
+   
 
 
 
@@ -113,8 +121,9 @@ if (foure=="yes" || foure=="y" ) {
     
     
     
-
-    let five=prompt('is am live in acity ?');
+function question5()
+{
+  let five=prompt('is am live in acity ?');
 
       five=five.toLowerCase();
 
@@ -129,13 +138,16 @@ if (five=="yes" || five=="y" ) {
     console.log(' oh thas wrong');
    
       alert( userName + "YOUR answer is false");}
+}question5();
+    
      
 
       ////////////////////////
 
 
-
-      let guessNumber=Number( prompt('pleas guse anumber between one and 8 you have 4 entries'));
+function question6()
+{
+  let guessNumber=Number( prompt('pleas guse anumber between one and 8 you have 4 entries'));
 
      
           var i;
@@ -167,11 +179,15 @@ if (five=="yes" || five=="y" ) {
 
 
            }     }
+}
+question6()
+      
           
 
  //////////////////////
 
-
+function question7()
+{
   let books=[ 'math',  'islamic ',' software ', 'english'];
    
  let favbooks;
@@ -198,6 +214,9 @@ for(let i=0; i<6; i++){
     alert(' sorry your answer is wrong  try again');
 }
 }
+}
+question7();
+  
 
 
  //////////
