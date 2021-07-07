@@ -39,7 +39,7 @@ if (firstone=="yes" || firstone=="y" ) {
 //////////////////////////////////
 
 function question2(){
-let secandone=prompt('is am  like ice?');
+   let secandone=prompt('is am  like ice?');
 
 secandone=secandone.toLowerCase();
 
@@ -57,11 +57,14 @@ if (secandone=="yes" || secandone=="y" ) {
 
  }
  
-} question2();
+}
+ question2();
+
 //////////////////////////////////
 
-/*
-let third=prompt('is am   have car ?');
+
+
+ /*let third=prompt('is am   have car ?');
 
 third=third.toLowerCase();
 
@@ -79,7 +82,7 @@ if (third=="yes" || third=="y" ) {
 
    ///////////////////////
 
-   let foure=prompt('is am  like read book?');
+   /*let foure=prompt('is am  like read book?');
 
 foure=foure.toLowerCase();
 
@@ -177,6 +180,6 @@ for(let i=0; i<6; i++){
 }  if (i!=7){
     alert(' sorry your answer is wrong  try again');
 }
-}
+}*/
 alert(`you have a score of ${score} /7`);
-alert('thanks for plaing ' + userName);*/
+alert('thanks for plaing ' + userName);
