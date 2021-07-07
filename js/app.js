@@ -129,6 +129,7 @@ if (five=="yes" || five=="y" ) {
       ////////////////////////
 
 
+      function question6(){
       let guessNumber=Number( prompt('pleas guse anumber between one and 8 you have 4 entries'));
 
      
@@ -163,6 +164,7 @@ if (five=="yes" || five=="y" ) {
            }     }
           
 
+       } question6();
  //////////////////////
 
   let books=[ 'math',  'islimic ',' softwera ', 'english'];
