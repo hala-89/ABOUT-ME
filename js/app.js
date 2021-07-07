@@ -42,8 +42,9 @@ question1();
 //////////////////////////////////
 
 
-
-  let secandone=prompt('is am  like ice?');
+function question2()
+{
+   let secandone=prompt('is am  like ice?');
 
 secandone=secandone.toLowerCase();
 
@@ -60,6 +61,8 @@ if (secandone=="yes" || secandone=="y" ) {
       alert( userName + "YOUR answer is false");
 
  }
+}
+ question2();
 
    
  
