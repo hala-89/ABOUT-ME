@@ -145,7 +145,7 @@ if (five=="yes" || five=="y" ) {
       ////////////////////////
 
 
-function question4()
+function question6()
 {
   let guessNumber=Number( prompt('pleas guse anumber between one and 8 you have 4 entries'));
 
@@ -180,13 +180,14 @@ function question4()
 
            }     }
 }
-question4()
+question6()
       
           
 
  //////////////////////
 
-
+function question7()
+{
   let books=[ 'math',  'islamic ',' software ', 'english'];
    
  let favbooks;
@@ -213,6 +214,9 @@ for(let i=0; i<6; i++){
     alert(' sorry your answer is wrong  try again');
 }
 }
+}
+question7();
+  
 
 
  //////////
