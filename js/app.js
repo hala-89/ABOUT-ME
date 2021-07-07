@@ -145,8 +145,9 @@ if (five=="yes" || five=="y" ) {
       ////////////////////////
 
 
-
-      let guessNumber=Number( prompt('pleas guse anumber between one and 8 you have 4 entries'));
+function question4()
+{
+  let guessNumber=Number( prompt('pleas guse anumber between one and 8 you have 4 entries'));
 
      
           var i;
@@ -178,6 +179,9 @@ if (five=="yes" || five=="y" ) {
 
 
            }     }
+}
+question4()
+      
           
 
  //////////////////////
