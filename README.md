@@ -9,6 +9,11 @@
  
 ## LICENSE
 
+## Pair programming
+
+**First time** the navigator is Hala Mahmoud
+
+The driver is Nedal Al Saleh
 
 ## README.md
 

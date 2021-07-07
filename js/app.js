@@ -11,9 +11,9 @@ let score=0;
 
 ////////////////////////////
 
+
 function question1()
 {
-
   let firstone=prompt('is im  amum?');
 
 
@@ -33,12 +33,15 @@ if (firstone=="yes" || firstone=="y" ) {
 
  }
 }
- question1();
+question1();
+  
+
+
 
 
 //////////////////////////////////
 
-function question2(){
+
    let secandone=prompt('is am  like ice?');
 
 secandone=secandone.toLowerCase();
@@ -57,13 +60,12 @@ if (secandone=="yes" || secandone=="y" ) {
 
  }
  
-}
- question2();
+
 
 //////////////////////////////////
 
 
-function question3(){
+
 
  let third=prompt('is am   have car ?');
 
@@ -81,11 +83,11 @@ if (third=="yes" || third=="y" ) {
    
    alert( userName + 'YOUR answer is false') ;}
 
-     } question3();
+
    ///////////////////////
 
    
-function question4(){
+
    let foure=prompt('is am  like read book?');
 
 foure=foure.toLowerCase();
@@ -103,12 +105,12 @@ if (foure=="yes" || foure=="y" ) {
       alert( userName + "YOUR answer is false");}
 
 
-     } question4();
+
       /////////////////////////////
     
     
     
-function question5(){
+
     let five=prompt('is am live in acity ?');
 
       five=five.toLowerCase();
@@ -125,11 +127,11 @@ if (five=="yes" || five=="y" ) {
    
       alert( userName + "YOUR answer is false");}
      
-} question5();
+
       ////////////////////////
 
 
-      function question6(){
+
       let guessNumber=Number( prompt('pleas guse anumber between one and 8 you have 4 entries'));
 
      
@@ -164,11 +166,10 @@ if (five=="yes" || five=="y" ) {
            }     }
           
 
-       } question6();
  //////////////////////
 
- function question7(){
-  let books=[ 'math',  'islimic ',' softwera ', 'english'];
+
+  let books=[ 'math',  'islamic ',' software ', 'english'];
    
  let favbooks;
 
@@ -195,8 +196,7 @@ for(let i=0; i<6; i++){
 }
 }
 
- }
-  question7();
+
  //////////
 alert(`you have a score of ${score} /7`);
 alert('thanks for plaing ' + userName);
