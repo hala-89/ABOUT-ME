@@ -167,6 +167,7 @@ if (five=="yes" || five=="y" ) {
        } question6();
  //////////////////////
 
+ function question7(){
   let books=[ 'math',  'islimic ',' softwera ', 'english'];
    
  let favbooks;
@@ -193,5 +194,9 @@ for(let i=0; i<6; i++){
     alert(' sorry your answer is wrong  try again');
 }
 }
+
+ }
+  question7();
+ //////////
 alert(`you have a score of ${score} /7`);
 alert('thanks for plaing ' + userName);
