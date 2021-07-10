@@ -2,15 +2,9 @@
   'use strict' 
 
 let userName=prompt('what\'s your name?');
-
-console.log( 'hello' , userName);
-
 alert('welcom '+ userName + ' lets go  play my game' );
  
 let score=0;
-
-////////////////////////////
-
 
 function question1()
 {
@@ -20,27 +14,14 @@ function question1()
  firstone=firstone.toLowerCase();
 
 if (firstone=="yes" || firstone=="y" ) {
-
-  console.log( firstone+" that true");
-
      alert( userName + "YOUR answer is yes");
       score++;
  } else{
-   
-    console.log(' oh thats wrong');
-   
-      alert( userName + "YOUR answer is false");
+           alert( userName + "YOUR answer is false");
 
  }
 }
-question1()
-  
-
-
-
-
-//////////////////////////////////
-
+question1();
 
 function question2()
 {
@@ -50,27 +31,16 @@ secandone=secandone.toLowerCase();
 
 if (secandone=="yes" || secandone=="y" ) {
 
-  console.log( secandone+"  that true");
-
+ 
      alert( userName + "YOUR answer is yes");
         score++;
  } else{
-   
-    console.log(' oh thas wrong');
-   
+     
       alert( userName + "YOUR answer is false");
 
  }
 }
  question2();
-
-   
- 
-
-
-//////////////////////////////////
-
-
 
 function question3()
 {
@@ -80,22 +50,18 @@ third=third.toLowerCase();
 
 if (third=="yes" || third=="y" ) {
 
-  console.log( third+"  that true");
+ 
 
      alert( userName + "YOUR answer is yes");
               score++; 
     } else{
    
-    console.log( ' oh thas wrong');
+    
    
    alert( userName + 'YOUR answer is false') ;}
 
-}question3()
+}question3();
  
-
-   ///////////////////////
-
-   
 function question4(){
   let foure=prompt('is am  like read book?');
 
@@ -103,24 +69,13 @@ foure=foure.toLowerCase();
 
 if (foure=="yes" || foure=="y" ) {
 
-  console.log( foure+"  that true");
-
      alert( userName + "YOUR answer is yes");
         score++;
     } else{
    
-    console.log(' oh thas wrong');
-   
       alert( userName + "YOUR answer is false");}
 }question4();
-   
-
-
-
-      /////////////////////////////
-    
-    
-    
+  
 function question5()
 {
   let five=prompt('is am live in acity ?');
@@ -134,15 +89,12 @@ if (five=="yes" || five=="y" ) {
      alert( userName + "YOUR answer is yes");
       score++;
     } else{
-   
-    console.log(' oh thas wrong');
-   
+  
       alert( userName + "YOUR answer is false");}
 }question5();
     
      
 
-      ////////////////////////
 
 
 function question6()
@@ -171,20 +123,12 @@ function question6()
           break;
          }
            else {
-                
-
              alert (' plz  try  agein ');
 
              guessNumber=Number (prompt('pleas guse anumber between one and 8 you have 4entries '));
-
-
            }     }
 }
-question6()
-      
-          
-
- //////////////////////
+question6();
 
 function question7()
 {
@@ -196,16 +140,13 @@ function question7()
 for(let i=0; i<6; i++){
   
   favbooks=prompt('what is my faviorte books? ');
-      favbooks=favbooks.toLowerCase();
-     
-      
+      favbooks=favbooks.toLowerCase();      
       for (let j = 0; j <books.length ; j++) {
            
 
         if (favbooks===books[j])
         {
-
-                    alert('thanks your answer is true ' +books );
+          alert('thanks your answer is true ' +books );
             score++;
 
             i=7;  }
@@ -217,10 +158,6 @@ for(let i=0; i<6; i++){
 }
 question7();
   
-
-
- //////////
 alert(`you have a score of ${score} /7`);
 alert('thanks for plaing ' + userName);
 
-//hello
